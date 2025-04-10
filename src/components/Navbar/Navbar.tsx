@@ -66,7 +66,7 @@ const Navbar = () => {
                 </button>
 
 
-                <div className=" gap-4 items-center flex flex-col bg-inherit w-full p-4 absolute top-20 right-0 duration-500"
+                <div className=" gap-4 items-center flex flex-col bg-inherit w-full p-4 absolute top-20 right-0 duration-500 z-50"
                     style={{
                         clipPath: toogel ? 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)' : 'polygon(0 0, 100% 0, 100% 0, 0 0)'
                     }}
