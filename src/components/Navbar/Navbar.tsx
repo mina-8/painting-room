@@ -1,5 +1,5 @@
 'use client'
-import { AU, CA, DE, ES, FR, GB, IT, US } from 'country-flag-icons/react/3x2';
+// import { AU, CA, DE, ES, FR, GB, IT, US } from 'country-flag-icons/react/3x2';
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { RxHamburgerMenu } from 'react-icons/rx';
@@ -12,23 +12,20 @@ const Navbar = () => {
                 <Link href={'/'}
                     className="flex gap-1 items-center font-bold hover:text-sky-400"
                 >
-                    Main menu
+                    Home
                 </Link>
 
                 <div className=" gap-4 items-center hidden lg:flex ">
 
                     <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
-                        <US title="United States" className='rounded-lg' width={50} />
-                        usa
+                       
+                       Contac-us
                     </Link>
+                    
                     <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
-                        <CA title="Canda" className='rounded-lg' width={50} />
-                        canada
-                    </Link>
-                    <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
-                        <GB title='GB' className='rounded-lg' width={50} />
-                        uk</Link>
-                    <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
+                       About-us
+                        </Link>
+                    {/* <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
                         <FR className='rounded-lg' width={50} />
                         France</Link>
                     <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
@@ -42,7 +39,7 @@ const Navbar = () => {
                         Italy</Link>
                     <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
                         <AU className='rounded-lg' width={50} />
-                        Australia</Link>
+                        Australia</Link> */}
 
                 </div>
 
@@ -55,7 +52,7 @@ const Navbar = () => {
                 <Link href={'/'}
                     className="flex gap-1 items-center font-bold hover:text-sky-400 "
                 >
-                    Main menu
+                    Home
                 </Link>
 
                 <button
@@ -72,17 +69,14 @@ const Navbar = () => {
                     }}
                 >
                     <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
-                        <US title="United States" className='rounded-lg' width={50} />
-                        usa
+                       
+                       Contac-us
                     </Link>
+                    
                     <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
-                        <CA title="Canda" className='rounded-lg' width={50} />
-                        canada
-                    </Link>
-                    <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
-                        <GB title='GB' className='rounded-lg' width={50} />
-                        uk</Link>
-                    <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
+                       About-us
+                        </Link>
+                    {/* <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
                         <FR className='rounded-lg' width={50} />
                         France</Link>
                     <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
@@ -96,7 +90,7 @@ const Navbar = () => {
                         Italy</Link>
                     <Link href='/' className='hover:text-sky-500 flex flex-col items-center'>
                         <AU className='rounded-lg' width={50} />
-                        Australia</Link>
+                        Australia</Link> */}
 
                 </div>
             </div>

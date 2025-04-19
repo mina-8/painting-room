@@ -1,4 +1,4 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -9,11 +9,11 @@ const Footer = () => {
     >
 
 <div className=" gap-4 items-center hidden lg:flex ">
-                    <Link href='/' className='hover:text-sky-500'>new products</Link>
+                    {/* <Link href='/' className='hover:text-sky-500'>new products</Link>
                     <Link href='/' className='hover:text-sky-500'>Recommended </Link>
                     <Link href='/' className='hover:text-sky-500'>etc</Link>
-                    <Link href='/' className='hover:text-sky-500'>Brands</Link>
-                    
+                    <Link href='/' className='hover:text-sky-500'>Brands</Link> */}
+                    <div>Footer</div>
                 </div>
                     
     </div>
