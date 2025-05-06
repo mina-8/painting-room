@@ -3,21 +3,16 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-    <div
-     className='bg-gray-100 p-4 dark:bg-gray-100 flex justify-center items-center'
+    <footer
+    className='bg-[#f8f8f8] text-center py-3.5 text-[#555] fixed bottom-0 w-full'
     >
-
-<div className=" gap-4 items-center hidden lg:flex ">
-                    {/* <Link href='/' className='hover:text-sky-500'>new products</Link>
-                    <Link href='/' className='hover:text-sky-500'>Recommended </Link>
-                    <Link href='/' className='hover:text-sky-500'>etc</Link>
-                    <Link href='/' className='hover:text-sky-500'>Brands</Link> */}
-                    <div>Footer</div>
-                </div>
-                    
-    </div>
+      <div>
+        Powered by <a
+        className='text-[#007BFF]'
+        href="mailto:minagiergies@gmail.com">minagiergies@gmail.com</a>
+      </div>
     </footer>
+
   )
 }
 
